@@ -4,6 +4,8 @@
 
 First public build.
 
+- License 1.1 (same day): personal use free; commercial use on free written approval, the anti-slop clause. Release files re-issued with the updated license name records.
+
 - Regular, upright. 828 glyphs, 783 encoded codepoints.
 - Basic Latin, Latin-1, Latin Extended-A, Ǆ–ǌ digraphs, 13 combining marks.
 - Box Drawing 128/128, Block Elements 32/32, Braille 256/256, 8 Powerline cells, arrows and math operators.

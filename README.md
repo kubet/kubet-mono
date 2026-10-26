@@ -5,7 +5,7 @@
 
 # Kubet Mono
 
-An original monospaced typeface for code and terminals, drawn by its own parametric engine. One construction system, one weight, a 600-unit cell that keeps text dense without crowding. Free for personal and commercial use.
+An original monospaced typeface for code and terminals, drawn by its own parametric engine and hill-climbed by a language-model loop. One construction system, one weight, a 600-unit cell that keeps text dense without crowding. Free for personal use; commercial use on approval.
 
 **Specimen and type tester:** [dropthetable.com/kubet-mono](https://dropthetable.com/kubet-mono)
 
@@ -106,9 +106,9 @@ Languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Serbian
 
 | File | Size | SHA-256 |
 | --- | --- | --- |
-| `fonts/ttf/KubetMono-Regular.ttf` | 121,656 B | `7b9720b1adefa501c7b2f7875834b814a309ede8be82b79118d3d85f50e1cf12` |
-| `fonts/otf/KubetMono-Regular.otf` | 76,024 B | `efed7dda6baf1c131976df397b1093161e42f428b67236d05250347a781780d2` |
-| `fonts/web/KubetMono-Regular.woff2` | 26,900 B | `2fc7f1f726fe0d8e280e00269233d944e5d37a81c28cde9d15e9ef4e85c1b35f` |
+| `fonts/ttf/KubetMono-Regular.ttf` | 121,832 B | `a602c29a03bf54bf24b1f8935809e649f5c4f65f7cab731fff2a0ec75df4f789` |
+| `fonts/otf/KubetMono-Regular.otf` | 76,200 B | `a0d36accbd639a8c31703fc62c990848da35a9fdb6643e2d3d094f6a615a44bb` |
+| `fonts/web/KubetMono-Regular.woff2` | 26,928 B | `db9d4e617e8a011ff901d2efdc9f0ace4f71a380d0d0ac2e2ba791551515869e` |
 
 ## Design notes
 
@@ -120,6 +120,10 @@ Languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Serbian
 
 ## License
 
-[Kubet Mono License 1.0](LICENSE.md). In short: use it anywhere, embed it, share it unmodified, modify it for yourself. Don't sell it, don't publish derivatives under the Kubet name, don't train type-generating models on it. No warranty.
+[Kubet Mono License 1.1](LICENSE.md).
+
+- **Personal use:** free, no questions asked.
+- **Commercial use:** the anti-slop clause. Mail a short description of your project to vukasin@dropthetable.com. If it is not slop, you get a written yes, and it costs nothing.
+- Share it unmodified, modify it for yourself, never sell it, never publish derivatives under the Kubet name, never train type-generating models on it. No warranty.
 
 Kubet Mono © 2026 Vukašin Kubet · [drop.table](https://dropthetable.com)
