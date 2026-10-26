@@ -73,11 +73,11 @@ font-feature = ss01   # slashed zero
 | | |
 | --- | --- |
 | Family · style | Kubet Mono · Regular (400), upright |
-| Version | 0.001 · source build `af6f2d0` · 2026-10-26 |
+| Version | 0.001 · 2026-10-26 |
 | Units per em | 1000 |
 | Advance width | 600, fixed; no kerning |
 | Cap height · x-height | 700 · 524 |
-| Ascender (l) · descender | 815 · −230 |
+| Ascender (l) · descender | 815 · −200 |
 | Line height | 1.332 em (1102 / −230) |
 | Stem | 92 units |
 | Glyphs · codepoints | 828 · 783 |
@@ -106,9 +106,9 @@ Languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Serbian
 
 | File | Size | SHA-256 |
 | --- | --- | --- |
-| `fonts/ttf/KubetMono-Regular.ttf` | 121,832 B | `a602c29a03bf54bf24b1f8935809e649f5c4f65f7cab731fff2a0ec75df4f789` |
-| `fonts/otf/KubetMono-Regular.otf` | 76,200 B | `a0d36accbd639a8c31703fc62c990848da35a9fdb6643e2d3d094f6a615a44bb` |
-| `fonts/web/KubetMono-Regular.woff2` | 26,928 B | `db9d4e617e8a011ff901d2efdc9f0ace4f71a380d0d0ac2e2ba791551515869e` |
+| `fonts/ttf/KubetMono-Regular.ttf` | 122,032 B | `9940a95a7b4d1a5584be2bf16f73c361c238c72d0410a152ac45be65f2b80ddc` |
+| `fonts/otf/KubetMono-Regular.otf` | 76,400 B | `93ae222a3769cfe840528b732e1a8f586a309a90a5cec08667610b152ecf6bc7` |
+| `fonts/web/KubetMono-Regular.woff2` | 26,908 B | `3bce455d97566ed60ae27925744e1deec2e39cb9a00a3bb49500925d81ff8b4c` |
 
 ## Design notes
 
@@ -120,10 +120,11 @@ Languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Serbian
 
 ## License
 
-[Kubet Mono License 1.1](LICENSE.md).
+[Kubet Mono License 1.2](LICENSE.md).
 
-- **Personal use:** free, no questions asked.
-- **Commercial use:** the anti-slop clause. Mail a short description of your project to vukasin@dropthetable.com. If it is not slop, you get a written yes, and it costs nothing.
-- Share it unmodified, modify it for yourself, never sell it, never publish derivatives under the Kubet name, never train type-generating models on it. No warranty.
+- **Use:** free on your own devices, any purpose, personal or paid.
+- **Shipping it** (web font, app, OS, package, theme, mirror): written approval first, free, the anti-slop clause. Mail the project to vukasin@dropthetable.com.
+- **One source:** the files are distributed from this repository only.
+- No selling. Derivatives renamed. No training outline models on it. No warranty.
 
 Kubet Mono © 2026 Vukašin Kubet · [drop.table](https://dropthetable.com)

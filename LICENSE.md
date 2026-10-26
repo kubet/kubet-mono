@@ -1,6 +1,6 @@
 # Kubet Mono License
 
-Version 1.1 · 2026-10-26 · KML-1.1
+Version 1.2 · 2026-10-26 · KML-1.2
 
 Copyright 2026 Vukašin Kubet. "Kubet" and "Kubet Mono" are Reserved Font Names.
 
@@ -12,54 +12,52 @@ This is a plain-language license. The numbered terms are the whole agreement.
 
 **You** means anyone who receives the Font Software.
 
-**Personal use** means use by an individual for themselves: editors, terminals, your own machines, side projects, learning, and open-source work that nobody is paid for.
+**Use** means installing the Font Software on devices you control and setting text with it: editors, terminals, design tools, documents, screenshots, streams, your own machines at home or at work.
 
-**Commercial use** means anything else: use by or for a company, in client work, in a product or service that earns money, or in anything published under a business name.
+**Shipping** means making the Font Software available to anyone else, in any form: hosting the files, serving it as a web font, bundling it in an app, game, firmware, operating system, distribution, package, theme, font collection, mirror or archive.
 
-## 1. Personal use
+## 1. Use
 
-Free. Use the Font Software on any number of your own devices, for any personal purpose, with no fee, no registration and no questions asked.
+Free. Use the Font Software on any number of devices you control, for any purpose, personal or paid, with no fee, no registration and no questions asked.
 
-## 2. Commercial use: the anti-slop clause
+## 2. Shipping: the anti-slop clause
 
-Commercial use needs written approval first. Ask by email to vukasin@dropthetable.com with a short description of what you are building, and a link if there is one. Approval is free of charge, is given at the author's sole discretion, and may be refused for any reason, including the author's opinion of the work. An approval covers the project it names, for as long as that project exists, and may be relied on in writing.
+Shipping needs written approval first. Ask by email to vukasin@dropthetable.com with a short description of the project and a link if there is one. Approval is free of charge, is given at the author's sole discretion, and may be refused for any reason, including the author's opinion of the work. An approval covers the project it names, for as long as that project exists, and may be relied on in writing.
 
-## 3. Embedding
+An approved project may embed the Font Software, including as a web font, and may subset or convert it for that purpose. Embedding must not let a third party extract and reinstall it as a general-purpose font.
 
-Within the use you are licensed for, you may embed the Font Software in documents, apps, games, firmware and websites, including as a web font. Subsetting and format conversion for embedding are allowed. Embedding must not let a third party extract and reinstall it as a general-purpose font.
+## 3. One source
 
-## 4. Sharing
+The Font Software is distributed from github.com/kubet/kubet-mono and nowhere else. Do not mirror, re-host, bundle or redistribute the files, modified or not, free or not, unless term 2 covers it. Link to the repository instead. An unchanged fork of the repository on GitHub is fine.
 
-You may copy and redistribute the Font Software, unmodified and free of charge, as long as every copy keeps this license and the copyright notice. Whoever receives it is bound by the same terms, including term 2.
+## 4. No selling
 
-## 5. No selling
+You may not sell the Font Software, charge for access to it, or include it in a paid font collection, marketplace listing or subscription.
 
-You may not sell the Font Software on its own, charge for access to it, or include it in a paid font collection, marketplace listing or subscription.
+## 5. Modifications
 
-## 6. Modifications
+You may modify the Font Software for your own use. Shipping a modified version falls under term 2, and the version must
 
-You may modify the Font Software for your own use. You may distribute a modified version only if
+- (a) not be named "Kubet", "Kubet Mono" or anything confusingly similar,
+- (b) carry this same license, and
+- (c) state plainly that it is derived from Kubet Mono and is not the original.
 
-- (a) it is not named "Kubet", "Kubet Mono" or anything confusingly similar,
-- (b) it is released under this same license, and
-- (c) it states plainly that it is derived from Kubet Mono and is not the original.
-
-## 7. Machine learning
+## 6. Machine learning
 
 You may not use the Font Software, its outlines, or renders of it as training, fine-tuning or evaluation data for models that generate typefaces or glyph outlines. Rendering text with it for ordinary purposes, including in datasets of screenshots or documents, is fine.
 
-## 8. Attribution
+## 7. Attribution
 
 Not required. Appreciated anywhere fonts are credited: "Kubet Mono by Vukašin Kubet".
 
-## 9. No warranty
+## 8. No warranty
 
 The Font Software is provided "as is", without warranty of any kind, express or implied. The author is not liable for any claim, damage or other liability arising from its use.
 
-## 10. Termination
+## 9. Termination
 
-Your rights under this license end automatically if you break term 2, 5, 6 or 7. They are restored when the breach is cured.
+Your rights under this license end automatically if you break term 2, 3, 4, 5 or 6. They are restored when the breach is cured.
 
-## 11. The source
+## 10. The source
 
 Kubet Mono is generated by a parametric engine. The engine is not part of the Font Software and is not released with it.
