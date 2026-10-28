@@ -1,13 +1,23 @@
+<p align="center">
+  <img src="docs/kubet-mono.gif" width="600" alt="Kubet Mono: a g drawn from its outline, the weight axis from 300 to 700, and the identity pairs 0O 1lI| at real pixel size">
+</p>
+
+<h1 align="center">Kubet Mono</h1>
+
+<p align="center"><b>A monospace drawn entirely by code.</b><br>
+An autonomous AI loop wrote the engine, drew every glyph and measured it against 16 monospaces for six days.<br>
+879 glyphs · Latin and Cyrillic · box drawing, braille, Powerline · free on your own machine.</p>
+
+<p align="center">
+  <a href="https://github.com/kubet/kubet-mono/releases/latest">Download</a> ·
+  <a href="https://dropthetable.com/kubet-mono">Specimen and type tester</a> ·
+  <a href="LICENSE.md">License</a>
+</p>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/plates/hero-dark.png">
-  <img alt="Kubet Mono — an original compact monospace for code and terminals" src="docs/plates/hero-light.png" width="1200">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/plates/code-dark.png">
+  <img alt="TypeScript sample set in Kubet Mono" src="docs/plates/code-light.png" width="1200">
 </picture>
-
-# Kubet Mono
-
-An original monospaced typeface for code and terminals, drawn by its own parametric engine and hill-climbed by a language-model loop. One construction system, one weight, a 600-unit cell that keeps text dense without crowding. Free for personal use; commercial use on approval.
-
-**Specimen and type tester:** [dropthetable.com/kubet-mono](https://dropthetable.com/kubet-mono)
 
 ## Install
 
@@ -36,7 +46,8 @@ Windows: download the TTF, right-click, Install.
 ```ini
 # Ghostty
 font-family = Kubet Mono
-font-feature = ss01   # slashed zero
+font-feature = ss01   # zero with a vertical bar instead of the diagonal
+font-feature = ss02   # l with slabs on both sides
 ```
 
 ```css
@@ -49,23 +60,34 @@ font-feature = ss01   # slashed zero
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/plates/code-dark.png">
-  <img alt="TypeScript sample set in Kubet Mono" src="docs/plates/code-light.png" width="1200">
-</picture>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/plates/term-dark.png">
-  <img alt="Terminal sample: box drawing table, block progress bars, braille spinner, Powerline prompt" src="docs/plates/term-light.png" width="1200">
+  <img alt="Terminal: Powerline prompt, a box-drawing table that tiles at the font's own line height, a block progress bar and a braille spinner" src="docs/plates/term-light.png" width="1200">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/plates/pairs-dark.png">
-  <img alt="Identity pairs: 0O, 1lI|, rn m, cl d, vv w, 5S 2Z, 8B 6b, 9g q, brackets, points, quotes, dashes" src="docs/plates/pairs-light.png" width="1200">
+  <img alt="Identity pairs: 0O, 1lI|, rn m, cl d, vv w, 5S, 2Z, 8B, 6b, g9q" src="docs/plates/pairs-light.png" width="1200">
 </picture>
+
+## Measured, not claimed
+
+Every build is scored against 16 monospaces on ten legibility measures, rendered with FreeType at the sizes code is read at (9–16 px, with and without hinting). Lower average rank is better.
+
+| Font | Average rank |
+| --- | ---: |
+| **Kubet Mono** | **4.1** |
+| JetBrains Mono | 6.6 |
+| Cascadia Code | 6.8 |
+| Go Mono | 7.4 |
+| DejaVu Sans Mono | 7.8 |
+| Hack | 8.0 |
+| Fira Code | 8.2 |
+
+Kubet is first on mean look-alike margin, edge sharpness and 1× edge sharpness, and second on the worst look-alike pair. It still trails on gray evenness (#6), texture (#7) and characters per line (#11). This is Kubet's own benchmark, not a reading study.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/plates/water-dark.png">
-  <img alt="Waterfall from 9 to 24 px" src="docs/plates/water-light.png" width="1200">
+  <img alt="Waterfall from 9 to 24 px, Latin and Serbian Cyrillic" src="docs/plates/water-light.png" width="1200">
 </picture>
 
 ## Datasheet
@@ -73,15 +95,15 @@ font-feature = ss01   # slashed zero
 | | |
 | --- | --- |
 | Family · style | Kubet Mono · Regular (400), upright |
-| Version | 0.001 · 2026-10-26 |
+| Version | 0.002 · 2026-10-28 |
 | Units per em | 1000 |
 | Advance width | 600, fixed; no kerning |
 | Cap height · x-height | 700 · 524 |
 | Ascender (l) · descender | 815 · −200 |
-| Line height | 1.332 em (1102 / −230) |
+| Line height | 1.332 em (1093 / −239) |
 | Stem | 92 units |
-| Glyphs · codepoints | 828 · 783 |
-| OpenType | `ccmp`, `ss01` slashed zero, `mark`, `mkmk` |
+| Glyphs · codepoints | 927 · 879 |
+| OpenType | `ccmp`, `locl` (Serbian, Macedonian), `ss01` vertical-bar zero, `ss02` slab l, `mark`, `mkmk` |
 | Hinting | `prep` + `gasp`: grayscale antialiasing at every size |
 | Embedding | `fsType` 0, installable |
 
@@ -93,29 +115,31 @@ font-feature = ss01   # slashed zero
 | Latin-1 Supplement | 96 / 96 |
 | Latin Extended-A | 128 / 128 |
 | Latin Extended-B digraphs Ǆ–ǌ | 9 / 9 |
+| Cyrillic U+0400–045F | 96 / 96 |
 | Combining marks | 13 |
-| Arrows, math, bullet, ellipsis | 16 |
+| Arrows, math, bullet, ellipsis, check marks | 18 |
 | Box Drawing | 128 / 128 |
 | Block Elements | 32 / 32 |
 | Braille Patterns | 256 / 256 |
 | Powerline (private use) | 8 |
 
-Languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Serbian, Croatian, Slovene, Polish, Czech, Slovak, Hungarian, Romanian, Turkish and the rest of Latin-1 plus Extended-A.
+Languages: English and the Latin-1 and Extended-A languages (German, French, Spanish, Portuguese, Italian, Dutch, Polish, Czech, Slovak, Hungarian, Romanian, Turkish, Croatian, Slovene and more). Cyrillic: Serbian and Macedonian with their localized forms, Russian, Belarusian and Bulgarian. Ukrainian except Ґ ґ.
 
 ### Files
 
 | File | Size | SHA-256 |
 | --- | --- | --- |
-| `fonts/ttf/KubetMono-Regular.ttf` | 122,032 B | `9940a95a7b4d1a5584be2bf16f73c361c238c72d0410a152ac45be65f2b80ddc` |
-| `fonts/otf/KubetMono-Regular.otf` | 76,400 B | `93ae222a3769cfe840528b732e1a8f586a309a90a5cec08667610b152ecf6bc7` |
-| `fonts/web/KubetMono-Regular.woff2` | 26,908 B | `3bce455d97566ed60ae27925744e1deec2e39cb9a00a3bb49500925d81ff8b4c` |
+| `fonts/ttf/KubetMono-Regular.ttf` | 139,120 B | `d6376576da5f130670757ac345eda2b7a46121614e21636e6b3703c22f3c4ce7` |
+| `fonts/otf/KubetMono-Regular.otf` | 86,748 B | `34caf0bdafd3ec3babc2e70cc42f5990979d3729d221e7995840098fda461349` |
+| `fonts/web/KubetMono-Regular.woff2` | 31,612 B | `c031b6ccb0a5215a770e947d6c66bf106849182c5a491c53088a972ad098a7d9` |
 
 ## Design notes
 
 - **Fixed cells.** Every spacing glyph has one advance; marks have zero. No kerning or contextual alternates rescue a bad default. The grid is the contract.
 - **Round but serious.** Gently squared superelliptic rounds, flat precise terminals, nothing bubbly. The capital O and lowercase o are the master rounds; every curve derives from them.
 - **Letter fit.** The gap between two `n` is about 0.70 of the counter width, inside the 0.65–0.80 band that compact monospaces share, so text is dense without crowding.
-- **Identity by shape, not width.** Zero carries an oblong centre mark (slash via `ss01`), the lowercase l hooks, the capital I has slabs, the one has a flag and a foot.
+- **Identity by shape, not width.** The zero is a narrower oval with a diagonal marker (a vertical bar via `ss01`), the lowercase l hooks, the capital I has slabs, the one has a flag and a foot.
+- **Settled by measurement.** When a form is a judgment call, the engine measures what the genre does and takes its median. That is how `ø` got its 56° slash and `æ` its two balanced counters.
 - **Original construction.** Only Kubet's programs and parameters produce ink. Other monospaces were measured as peers, never traced.
 
 ## License
