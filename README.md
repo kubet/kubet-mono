@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/kubet-mono.gif" width="600" alt="Kubet Mono: a g drawn from its outline, the weight axis from 300 to 700, and the identity pairs 0O 1lI| at real pixel size">
+  <img src="docs/kubet-mono.gif" width="540" alt="Kubet Mono: the g drawn from its real Bézier outline and measured, a weight wave across a glyph grid, and 0O 1lI| snapping to real 11 px pixels">
 </p>
 
 <h1 align="center">Kubet Mono</h1>
