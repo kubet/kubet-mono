@@ -1,4 +1,7 @@
-/* Kubet Mono — drop-in @font-face. Serve fonts/web/KubetMono-Regular.woff2 next to this file. */
+/* Kubet Mono @font-face, for projects approved under Kubet Mono License term 2 only.
+   Shipping the font (any web font, app or package) needs free written approval first:
+   vukasin@dropthetable.com. Serve your approved copy of fonts/web/KubetMono-Regular.woff2
+   from your own hosting, next to this file; never load it from GitHub or a CDN mirror. */
 @font-face {
   font-family: "Kubet Mono";
   src: url("fonts/web/KubetMono-Regular.woff2") format("woff2");
