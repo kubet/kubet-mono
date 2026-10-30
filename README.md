@@ -13,6 +13,10 @@
   <a href="LICENSE.md">License</a>
 </p>
 
+<p align="center">
+  <img src="docs/kubet-mono.gif" width="600" alt="Every curve is code: the g's cubic outline draws itself. A hill climb tries 62 variants across six parameters and keeps the shipping font. 0 is never O at 11 px. #1 of 17 monospaces. Code in nvim.">
+</p>
+
 ## Install
 
 ```sh
