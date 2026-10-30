@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/session.svg" width="744" alt="A terminal set in Kubet Mono: a Claude session draws the font letter by letter, then the font goes to work in vitest, nvim, git diff and psql">
+  <img src="docs/kubet-mono.gif" width="600" alt="Code in nvim set in Kubet Mono, then the hill climb: 62 variants across six parameters, and the shipping font it kept.">
 </p>
 
 <h1 align="center">Kubet Mono</h1>
@@ -11,10 +11,6 @@
   <a href="https://github.com/kubet/kubet-mono/releases/latest">Download</a> ·
   <a href="https://dropthetable.com/kubet-mono">Specimen</a> ·
   <a href="LICENSE.md">License</a>
-</p>
-
-<p align="center">
-  <img src="docs/kubet-mono.gif" width="600" alt="Code in nvim set in Kubet Mono, then the hill climb: 62 variants across six parameters, and the shipping font it kept.">
 </p>
 
 ## Install
